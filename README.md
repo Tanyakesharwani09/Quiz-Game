@@ -1,7 +1,9 @@
-🧠 Quiz Game
+🧠 #Quiz Game
+
 An interactive, browser-based quiz game built using vanilla JavaScript, HTML, and CSS. Test your knowledge with multiple-choice questions and get instant feedback based on your answers!
 
-🎯 Features
+🎯 ##Features
+
 ✅ Multiple-choice questions loaded dynamically from a JavaScript array
 
 🎨 Visual feedback: green for correct answers, red for incorrect
@@ -14,12 +16,15 @@ An interactive, browser-based quiz game built using vanilla JavaScript, HTML, an
 
 ⚡ Simple DOM manipulation without any frameworks
 
-🔧 Tech Stack
-Language	Usage
-HTML	Page structure and content rendering
-CSS	Styling and feedback colors for user interactions
-JavaScript	Question logic, scoring system, and DOM updates
-🚀 How It Works
+🔧 ##Tech Stack
+Language Usage
+
+**HTML** 	Page structure and content rendering
+**CSS** 	Styling and feedback colors for user interactions
+**JavaScript**	Question logic, scoring system, and DOM updates
+
+🚀 ##How It Works
+
 The quiz data is stored in a JavaScript array of objects.
 
 Each question is dynamically loaded into the DOM using innerHTML.
@@ -32,13 +37,15 @@ After completing all questions, the final score is displayed.
 
 The game can be restarted with a simple reload.
 
-📁 Folder Structure
+📁 ##Folder Structure
+
 quiz-game/
 ├── index.html      # Main HTML structure
 ├── style.css       # Custom styles including button states
 └── script.js       # JavaScript logic for quiz flow
 🎨 Visual Design
-Styling includes:
+
+##Styling includes:
 
 Hover effects for buttons
 
@@ -48,7 +55,7 @@ Conditional coloring for correct ✅ and incorrect ❌ answers
 
 Responsive container layout using Flexbox
 
-🛠 Improvements You Can Explore
+🛠## Improvements You Can Explore
 Add different difficulty levels or quiz categories
 
 Introduce a countdown timer per question
@@ -59,7 +66,7 @@ Convert the project to React components for scalability
 
 Add animations for smoother transitions
 
-💡 Getting Started
+💡 ##Getting Started
 Clone the repo and run the HTML file in any browser:
 
 bash
