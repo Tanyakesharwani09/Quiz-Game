@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+.container{
+    background-color: rgb(232, 215, 218);
+    width: 1390px;
+    height: 750px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 5px solid rgb(191, 92, 108);
+    width: 450px;
+    height: 450px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding:10px;
+}
+
+.ques{
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+
+    
+}
+
+.options{
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.option{
+    cursor: pointer;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 1px solid rgb(176, 133, 140);
+    width: 380px;
+    height: 40px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+}
+
+.option:hover{
+    background-color: rgb(181, 66, 85);
+    box-shadow: 1px 1px 1px 2px pink;
+    transition-duration: 1s;
+}
+
+.next{
+    cursor: pointer;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 1px solid rgb(176, 133, 140);
+    width: 70px;
+    height: 30px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    
+    
+}
+
+.next:hover{
+    background-color: rgb(181, 66, 85);
+    box-shadow: 1px 1px 1px 2px pink;
+}
+
+/* Highlight correct option */
+.correct {
+    background-color: rgb(113, 209, 113); /* green */
+    border: 2px solid rgb(49, 156, 49);
+}
+
+/* Highlight incorrect option */
+.incorrect {
+    background-color: rgb(238, 122, 122); /* red */
+    border: 2px solid rgb(178, 57, 57);
+}
+
+/* Selected option (before revealing correctness) */
+.selected {
+    background-color: rgb(224, 190, 204);
+    border: 2px solid rgb(181, 66, 85);
+}
+
+
+
